@@ -6,10 +6,78 @@
         <p id="name">
             江西软件职业技术大学
         </p>
+        <!--
+            外部样式
+            内部样式
+            行内样式
+        -->
         <input type="button" id="btn" value="提交">
 
+        <table border="5" style="background-color: green;">
+            <tr>
+                <td style="background-color: red;">第一行，第一列</td>
+                <td>第一行，第二列</td>
+            </tr>
+            <tr>
+                <td>第二行，第一列</td>
+                <td>第二行，第二列</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li>华为</li>
+            <li>小米</li>
+            <li>格力</li>
+            <li>大疆</li>
+            <li>阿里</li>
+            <li>滴滴</li>
+        </ul>
+
+        <!--快捷方式:
+        ul#company>li*5
+       -->
+       <ul id="company">
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ul>
+
+       <!--快捷方式:
+        ul.company>li*5
+       -->
+       <ul class="company">
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ul>
+
+       <ol>
+           <li>华为</li>
+           <li>小米</li>
+           <li>格力</li>
+           <li>大疆</li>
+           <li>阿里</li>
+           <li>滴滴</li>
+       </ol>
+
+       <img src="timg.jpg" width="400" height="300" alt="">
+      <a href="https://www.baidu.com/"></a>
+
+      <p id="name"></p>
+      <form id="form1" method="POST" action="index4.html">
+          <p>名字：<input name="name" type="text"> </p>
+          <p>密码：<input name="pass" type="password"> </p>
+          <p>
+              <input type="submit" name="Button" value="提交">
+              <input type="reset" name="Rrset" value="重填">
+          </p>
+      </form>
         <script src="index3.js">
-            
+
         </script>
     </body>
 </html>
