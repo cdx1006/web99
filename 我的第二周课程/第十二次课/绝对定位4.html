@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: green;
+        }
+        .wrapper{
+            background-color: blue;
+            height: 400px;
+            width: 700px;
+            margin: 150px;
+        }
+        .parent1{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin: 60px;
+        }
+        .parent2{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin: 60px;
+        }
+        .son1{
+            background-color: #fff;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 20px;
+        }
+        .son2{
+            background-color: black;
+            width: 60px;
+            height: 60px;
+            position: relative;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="parent1">
+            <div class="son1"></div>
+        </div>
+        <div class="parent2">
+            <div class="son2"></div>
+        </div>
+    </div>
+</body>
+</html>
