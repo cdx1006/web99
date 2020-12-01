@@ -23,3 +23,4 @@ function redNut(x, y) {
     }
 }
 bigNut(redNut)()
+第四道题目 请说出程序的运行结果
