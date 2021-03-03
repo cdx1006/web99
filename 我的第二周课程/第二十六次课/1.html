@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <style>
+        #wrapper {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+    </div>
+    <script>
+        let target = document.getElementById("wrapper");
+        target.onclick = function () {
+            // alert("error")
+            target.style.backgroundColor = "green";
+            target.style.width = 250 + "px"
+            target.style.height = 250 + "px"
+        }
+        // target.onmouseenter = function () {
+        //     // alert("鼠标进来了")
+        //     target.style.backgroundColor = "red"
+        // }
+        target.onmousemove = function () {
+            console.log("鼠标在移动")
+        }
+        target.onmouseleave = function () {
+            console.log("鼠标离开")
+            target.style.backgroundColor = "black"
+        }
+        $("$wrapper").click(function(){
+            target.style.backgroundColor="yellow";
+            target.style.width = 300 + "px";
+            target.style.height = 300 + "px";
+        })
+        $("wrapper").mouseenter(function(){
+            alert("jquery 鼠标进来了")
+        })
+
+        $("#myname").blur(function(){
+            alert($("#myname").val();
+            if(_username.length > 0){
+                alert("123")
+            }
+        })
+    </script>
+</body>
+
+</html>
